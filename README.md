@@ -5,4 +5,5 @@ Calculates which cities will disappear overnight because they have been inactive
 
 # How to use
 for now, paste in the console and run `find()`.
+
 *It will only scan for cities within the current loaded map. Move the map to find more.*
