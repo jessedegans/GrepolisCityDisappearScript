@@ -25,10 +25,10 @@ function go() {
         p = document.querySelector("#premium_exchange > div.game_border > div.gp_tab.tab_premium_exchange > div.gp_tab_page.js-page.js-page-1.game_body.active > div.resources_wrapper > div:nth-child(2)"),
         o = document.querySelector("#premium_exchange > div.game_border > div.gp_tab.tab_premium_exchange > div.gp_tab_page.js-page.js-page-1.game_body.active > div.resources_wrapper > div:nth-child(3)"),
         n = parseInt(r.innerText) - parseInt(e.innerText);
-    n > 61 ? (console.log("hout kan!"), (d.style.backgroundColor = "green")) : (console.log("Hout te laag : " + n), (d.style.backgroundColor = "red"));
+    n > 56 ? (console.log("hout kan!"), (d.style.backgroundColor = "green")) : (console.log("Hout te laag : " + n), (d.style.backgroundColor = "red"));
     var _ = parseInt(g.innerText) - parseInt(a.innerText);
-    _ > 61 ? (console.log("Steen kan!"), (p.style.backgroundColor = "green")) : (console.log("Steen te laag : " + _), (p.style.backgroundColor = "red"));
+    _ > 56 ? (console.log("Steen kan!"), (p.style.backgroundColor = "green")) : (console.log("Steen te laag : " + _), (p.style.backgroundColor = "red"));
     var c = parseInt(t.innerText) - parseInt(i.innerText);
-    c > 61 ? (console.log("Zilver kan!"), (o.style.backgroundColor = "green")) : (console.log("Zilver te laag : " + c), (o.style.backgroundColor = "red"));
+    c > 56 ? (console.log("Zilver kan!"), (o.style.backgroundColor = "green")) : (console.log("Zilver te laag : " + c), (o.style.backgroundColor = "red"));
 }
 buttonSelector.addEventListener("click", goafter1sec);
